@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'company/about'
+  get 'company/ceo'
   resources :posts
   root to: 'home#top'
   get 'home/about'
