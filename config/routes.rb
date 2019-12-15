@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 #<<<<<<< HEAD
   get 'company/about'
   get 'company/ceo'
-=======
+
   resources :users
 #>>>>>>> e44712dfb8a642abd45c5856fb4ecd86436118f6
   resources :posts
